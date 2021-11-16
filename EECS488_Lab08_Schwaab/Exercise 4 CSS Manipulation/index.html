@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        
+        <link href="myStyle.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <p id="para1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna  <br>
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation  <br>
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.  <br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse  <br>
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br>
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit <br>
+            anim id est laborum.
+
+        </p>
+        <br>
+        <form onsubmit="alter();">
+            <lable for="border">Border:</lable>
+            <input type="text" id="borderRed">
+            <!--
+            <input type="text" id="borderGreen">
+            <input type="text" id="borderBlue">
+            -->
+            <lable for="border">Border Width:</lable>
+            <input type="text" id="borderWidth"><br>
+
+
+
+            <lable for="backgroundRed">Backgroud color:</lable>
+            <input type="text" id="backgroundRed">
+            <!--
+            <input type="text" id="backgroundGreen">
+            <input type="text" id="backgroundBlue">
+            -->
+            <br>
+            <input type="submit" value="Input">
+        </form> 
+        <br>
+        <button type="button" onclick="changePara('red');">red</button>
+        <button type="button" onclick="changePara('green');">green</button>
+        <button type="button" onclick="changePara('blue');">blue</button>
+    </body>
+    <script src="change.js"></script>
+</HTML>
