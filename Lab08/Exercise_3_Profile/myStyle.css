@@ -1,0 +1,25 @@
+body
+{
+    background-image: url(sky.jpg); background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+img { width: 200px; height: 200px; border-radius: 20px;}
+
+p{
+    background-color: lightgreen;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+p.diff{
+    background-color: lightgreen;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+a:hover{
+    background-color: yellow;
+    border-radius: 8px;
+
+}
